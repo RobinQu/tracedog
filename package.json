@@ -1,0 +1,31 @@
+{
+  "name": "tracedog",
+  "version": "0.0.1",
+  "description": "Transaction Tracer for NodeJS Applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:RobinQu/TraceDog.git"
+  },
+  "keywords": [
+    "trace",
+    "transaction",
+    "nodejs",
+    "probe",
+    "shimer"
+  ],
+  "author": "RobinQu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobinQu/TraceDog/issues"
+  },
+  "homepage": "https://github.com/RobinQu/TraceDog",
+  "dependencies": {
+    "continuation-local-storage": "~3.1.4",
+    "delegates": "~0.1.0",
+    "stack-trace": "0.0.9"
+  }
+}
