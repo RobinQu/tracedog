@@ -14,5 +14,8 @@
   "env": {
     "browser": true,
     "node": true
+  },
+  "globals": {
+    "Module": true
   }
 }
