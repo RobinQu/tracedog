@@ -2,13 +2,13 @@
   "name": "tracedog",
   "version": "0.0.1",
   "description": "Transaction Tracer for NodeJS Applications",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "mocha --harmony tests"
+    "test": "mocha --harmony --compilers coffee:coffee-script/register"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:RobinQu/TraceDog.git"
+    "url": "git@github.com:RobinQu/xtrace.git"
   },
   "keywords": [
     "trace",
@@ -20,15 +20,21 @@
   "author": "RobinQu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RobinQu/TraceDog/issues"
+    "url": "https://github.com/RobinQu/xtrace/issues"
   },
-  "homepage": "https://github.com/RobinQu/TraceDog",
+  "homepage": "https://github.com/RobinQu/xtrace",
   "dependencies": {
     "continuation-local-storage": "~3.1.4",
+    "debug": "^2.2.0",
     "delegates": "~0.1.0",
+    "lodash": "^3.10.0",
     "stack-trace": "0.0.9"
   },
   "devDependencies": {
-    "eslint": "^0.24.1"
+    "chai": "^3.2.0",
+    "coffee-script": "^1.9.3",
+    "eslint": "^0.24.1",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.4"
   }
 }
