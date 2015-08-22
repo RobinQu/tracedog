@@ -27,8 +27,6 @@ describe 'Basics', ->
       done()
     , 1000
 
-
-
   describe 'xtrace.instrument()', ->
 
     before((done)->
